@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+
+
+    <group android:checkableBehavior="single">
+        <item android:title="Details">
+            <menu>
+                <item
+                    android:id="@+id/nav_medical"
+                    android:icon="@drawable/ic_local_hospital_black_24dp"
+                    android:title="Update Medical Details" />
+                <item
+                    android:id="@+id/nav_medical_view"
+                    android:icon="@drawable/ic_local_hospital_black_24dp"
+                    android:title="View Medical Details" />
+
+                <item
+                    android:id="@+id/nav_emergency"
+                    android:icon="@drawable/ic_contact_phone_black_24dp"
+                    android:title="Emergency Contacts Details" />
+            </menu>
+        </item>
+    </group>
+        <group android:checkableBehavior="single">
+            <item android:title="Profile">
+                <menu>
+                    <item
+                        android:id="@+id/nav_profile"
+                        android:icon="@drawable/ic_person_black_24dp"
+                        android:title="Profile" />
+                    <item
+                        android:id="@+id/nav_logout"
+                        android:icon="@drawable/ic_reply_black_24dp"
+                        android:title="Logout" />
+                </menu>
+            </item>
+        </group>
+
+        <group android:checkableBehavior="single">
+        <item android:title="Communitcate">
+            <menu>
+                <item
+                    android:id="@+id/nav_info"
+                    android:icon="@drawable/ic_info_black_24dp"
+                    android:title="About us" />
+            </menu>
+        </item>
+    </group>
+    </group>
+</menu>
